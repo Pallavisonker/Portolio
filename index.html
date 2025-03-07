@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <style>
+        body,html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container{
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: gray;
+            text-align: center;
+            padding: 100px 100px;
+            border-radius: 20px;
+            border: 2px solid gold;
+        }
+        .box:hover{
+            transform: scale(1.05);
+        }
+        #profile{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 2px solid rgb(11, 11, 11);
+        }
+        button{
+            background-color: rgb(27, 113, 170);
+            color: rgb(16, 12, 12);
+            height: 50px;
+            width: 150px;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+        button:hover{
+            transform: scale(1.03);
+        }
+        h2{
+            color: white;
+            font-size: 200%;
+        }
+        #l,#x,#g{
+            border-radius: 50%;
+            border: 1px solid rgb(10, 10, 10);
+        }
+        #l:hover,#x:hover,#g:hover,#i:hover{
+            transform: scale(1.1);
+        }
+        #l{
+            height: 50px;
+            width: 50px;
+        }
+        #g{
+            height: 50px;
+            width: 50px;
+        }
+        #x{
+            height: 50px;
+            width: 50px;
+        }
+        #i{
+            height: 50px;
+            width: 50px;
+        }
+        h2{
+            font-size: 40px;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>PALLAVI SONKER</h2>
+            <img src="pallavi.jpg" alt="" id="profile"><br><br><br>
+            <button>Visit my Portfolio</button>
+            <a href="project.html">
+                <button>Projects</button>
+            </a><br><br>
+            <div class="log">
+                <a href="https://www.linkedin.com/in/pallavi-sonker-034945328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <img src="linkedin.png" alt="linkedin" id="l">
+                </a>
+                <a href="https://github.com/Pallavisonker">
+                    <img src="github.png" alt="github" id="g">
+                </a>
+                <a href="https://x.com/sonker_pal69066">
+                    <img src="twitter.png"  id="x">
+                </a>
+                <a href="">
+                    <img src="instagram.png" alt="instagram" id="i">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
